@@ -7,7 +7,6 @@ public class FollowCharacter : MonoBehaviour
     // Movement Script https://youtu.be/FXqwunFQuao?si=MSj36lxP8ikZEhj_
     // Clamping Script https://youtu.be/Fqht4gyqFbo?si=vquIaBIUKIUl3aTG
     public float FollowSpeed = 2f;
-   
     public Transform target;
     public Vector3 minValues, maxValues;
     public Vector3 offset;
@@ -22,7 +21,7 @@ public class FollowCharacter : MonoBehaviour
               Mathf.Clamp(targetPosition.z, minValues.z, maxValues.z)
               );
         
-        transform.position = Vector3.Slerp(transform.position, boundPosition, FollowSpeed * Time.deltaTime);
+        transform.position = Vector3.Slerp(transform.position, boundPosition , FollowSpeed * Time.deltaTime);
        
     }
 }
