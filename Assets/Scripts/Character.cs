@@ -13,6 +13,7 @@ public class Character : MonoBehaviour
     private bool isDragging;
     public LineRenderer lr;
     private SpriteRenderer spriteRenderer;
+  
     // Start is called before the first frame update
     void Start()
     {
