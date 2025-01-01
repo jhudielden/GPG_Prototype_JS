@@ -363,7 +363,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &108887117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -516,8 +516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FollowSpeed: 4
   target: {fileID: 108887113}
-  minValues: {x: -1, y: 0, z: -10}
-  maxValues: {x: 0.9, y: 34.9, z: -10}
+  minValues: {x: -1.78, y: 0, z: -10}
+  maxValues: {x: 1.77, y: 34.9, z: -10}
   offset: {x: 0, y: 0, z: -10}
 --- !u!1 &540966807
 GameObject:
