@@ -84,7 +84,7 @@ public class Character : MonoBehaviour
         if (stroke == true)
         {
             Vector3 direction = mouse_upposition - mouse_downposition;
-            _rigidbody2D.AddForce(direction * slingForce, ForceMode2D.Impulse);
+            _rigidbody2D.AddForce(- direction * slingForce, ForceMode2D.Impulse);
         }
     }
 
