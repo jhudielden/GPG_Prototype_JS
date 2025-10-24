@@ -685,7 +685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b6c4a82c542fb743a4b9a725d890e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FollowSpeed: 4
+  FollowSpeed: 10
   target: {fileID: 108887113}
   minValues: {x: -2.84, y: 0, z: -10}
   maxValues: {x: 2.72, y: 54.96, z: -10}
